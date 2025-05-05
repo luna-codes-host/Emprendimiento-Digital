@@ -1,10 +1,10 @@
-# Emprendimiento ddigital
+# Emprendimiento Digital
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
 ## Comenzando 🚀
 
-Esta prácxtica muestra como aplicar estilos CSS a un sitio web construido con html.
+Esta práctica muestra como aplicar estilos CSS a un sitio web construido con html.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
