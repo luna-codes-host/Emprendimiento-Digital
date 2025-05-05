@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   /*Estilo generales al sitio*/
+   body {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       background-color: #be9be1;
+       color: #101010
+   }
+   /* Definir el estilo del encabezado*/
+   header{
+       background-color: #ceb5dc;
+       padding: 20px;
+       text-align: center;
+   }
+   /*Estilos de logo*/
+   .logo{
+       width: 100px;
+   }
+/*Estilos de imagenes*/
+   .emprendimiento{
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   }
+   .servicio{
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   }
+   .Básico{
+    width: 150px;
+   }
+   .Estándar{
+    width: 150px;
+   }
+   .Premium{
+    width: 150px;
+   }
+   /*Estilos de navegador*/
+   nav ul{
+       list-style: none;
+       display: flex;
+       justify-content: center; 
+       margin-top: 10px;
+   }
+   /*Estilos de los items*/
+   nav ul li{
+       margin: 0 15px;
+   }
+   /*Estilos a los enlaces del navegador*/
+   nav ul li a{
+       color: white;
+       text-decoration: none;
+       font-weight: bold;
+   }
+   
+   nav ul li a:hover{
+       text-decoration: underline;
+       color:#5b3b7a ;
+   }
+   
+   main{
+       padding: 30px;
+       text-align: center;
+   }
+   /*Estilos de seccion*/
+   section{
+       margin-bottom: 40px;
+       padding: 20px;
+       background: white;
+       border-radius: 10px;
+       box-shadow: 0px 4px 8px rgba(0,0,0,1);
+   }
+   /*Pie de pagina*/
+   footer{
+       background-color: #4d0e67;
+       color: #eee;
+       text-align: center;
+       padding: 20px;
+       margin-top: 20px;
+   }
+   /*Estilo d eimagen*/
+   img{
+       width: 100%;
+       height: auto;
+       margin-top: 15px;
+       border-radius:8px ;
+   }
+   /*Estilos de tarjeta de servicios*/
+   .tarjetas{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       margin-top: 20px;
+   }
+   /*Eslilos A cada tarjeta*/
+   .tarjeta{
+       background-color: #c0a6cb;
+       padding: 20px;
+       border: 2px solid black;
+       border-radius: 10px;
+       width: 30%;
+       margin: 10px;
+       box-shadow: 0px 2px 6px rgba(0,0,0,1);
+   }
+   /*Boton informacion*/
+   .btn-info {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b176ca;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+   }
+   .btn-info:hover {
+    background-color: #211b21;
+   }
+   /*Diseño responsivo*/
+   @media(max-width: 768px){
+       /*Cambiar la orientacion a columnas del menu*/
+       nav ul{
+           flex-direction: column;
+       }
+       /*Ajustar los margenes superiores entre cada menu*/
+       nav ul li{
+           margin: 10px 0;
+       }
+       /*Colo cando las tarjetas una debajo de otras*/
+       .tarjeta{
+           flex-direction: column;
+           align-items: center;
+       }
+       /*Cada tarjeta ocupa el 80% del espacio disponible*/
+       .tarjeta{
+           width: 80%;
+       }
+   }
